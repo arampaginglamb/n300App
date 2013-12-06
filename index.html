@@ -1,0 +1,49 @@
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TITLE: index.html
+AUTHOR: Corbin Combs
+CREATE DATE: 11/11/2013
+PURPOSE: an n300 app
+LAST MODIFIED ON: 11/11/2013
+LAST MODIFIED BY: Corbin Combs
+MODIFICATION HISTORY:
+ 	10/16/2013 - Create date.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>N300 App</title>
+	<link href="css/le-frog/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+	<link href="n300App.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.js"></script>
+	<script type="text/javascript" src = "n300App.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body> 
+
+	<h1>A Mad Lib App</h1>
+	<div id="userInfo">
+	<h2>Please Fill Out This Form</h2>
+
+	<form name="form" id="form" method="POST">
+		<label>First Name:</label></br><input type="text" placeholder="First Name" name="firstName" id="firstName"><br/>
+		<label>Email:</label></br><input type="text" placeholder="Email" name="email" id="email"><br/>
+		<label>Secret Word:</label></br><input type="password" id="password" name="password"></br>
+		<input type="radio" name="rad" id="rad1" checked>Female<input type="radio" name="rad" id="rad2">Male<br/>
+		<label id="longLabel">Check if you are a Doctor: </label><input type="checkbox" id="chkBx"></br>
+		<input type="button" id="button" value="Create a Story"></input>
+	</form>
+	
+	</div>
+	<div id="story">
+		Your story will be here!
+	</div>
+</body>
+
+</html>

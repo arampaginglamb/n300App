@@ -1,0 +1,38 @@
+
+label{
+	width: auto;
+}
+body{
+	width: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: yellow;
+}
+
+#userInfo{
+	float: block;
+	width: auto;
+	list-style: none;
+	background-color: green;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#story {
+    float: block;
+	color: black;
+	background-color:yellow;
+	text-align: left;
+	padding-left: em;
+}
+#backButton{
+	float:block;
+	text-align: center;
+}
+h1{
+background-color:white;
+}
+
+
+
